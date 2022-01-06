@@ -26,3 +26,4 @@ D:\dotnet\SampleCRUD\SampleCRUD\obj\Debug\net6.0\ref\SampleCRUD.dll
 D:\dotnet\SampleCRUD\SampleCRUD\obj\Debug\net6.0\SampleCRUD.pdb
 D:\dotnet\SampleCRUD\SampleCRUD\obj\Debug\net6.0\SampleCRUD.genruntimeconfig.cache
 D:\dotnet\SampleCRUD\SampleCRUD\bin\Debug\net6.0\manufacturers.csv
+D:\dotnet\SampleCRUD\SampleCRUD\bin\Debug\net6.0\CsvHelper.dll

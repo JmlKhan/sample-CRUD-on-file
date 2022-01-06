@@ -1,4 +1,6 @@
-﻿using SampleCRUD.Model;
+﻿using CsvHelper;
+using SampleCRUD.Model;
+using System.Text;
 
 namespace SampleCRUD.Data
 {
@@ -10,6 +12,15 @@ namespace SampleCRUD.Data
 
             return manufacturers;
         }
+
+        public string Post(string manufacturer)
+        {
+            using StreamWriter file = new("manufacturers.csv", append: true);
+            file.WriteLine(manufacturer);
+            return manufacturer;
+        }
+
+        
 
         private List<Manufacturer> ProcessFile(string path)
         {

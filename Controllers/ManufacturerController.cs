@@ -20,5 +20,14 @@ namespace SampleCRUD.Controllers
         {
             return Ok( _manufacturer.GetManufacturers());
         } 
+
+        [HttpPost]
+        public IActionResult Post([FromBody]string manufacturer)
+        {
+            var mf = manufacturer.ToString();
+            _manufacturer.Post(mf);
+            
+            return Ok();
+        }
     }
 }
